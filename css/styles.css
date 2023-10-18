@@ -390,6 +390,7 @@ button:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
+  box-shadow: 5px 5px 10px 1px #a3a3a3;
 }
 
 ::-moz-focus-inner {
@@ -3837,7 +3838,7 @@ textarea.form-control-lg {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+  box-shadow: 5px 5px 10px 1px #a3a3a3 inset;
 }
 
 .navbar-toggler-icon {
@@ -8322,6 +8323,7 @@ textarea.form-control-lg {
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  box-shadow: 5px 5px 10px 1px #a3a3a3 inset;
 }
 
 .bg-body {
@@ -11567,6 +11569,7 @@ html {
 
 .rounded-4 {
   border-radius: 1rem !important;
+  box-shadow: 5px 5px 10px 1px #a3a3a3 inset;
 }
 
 .feature {
